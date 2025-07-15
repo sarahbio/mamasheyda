@@ -1123,3 +1123,18 @@ input, select, textarea {
 body, input, select, textarea {
     color: #000 !important;
 }
+
+#bg {
+  background-image: url("images/bg-desktop.jpg");
+ 
+}
+
+@media only screen and (max-width: 768px) {
+  #bg {
+    background-image: url("images/bg-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
